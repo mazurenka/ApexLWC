@@ -1,6 +1,6 @@
 
 
-function onClickFoo() {
+function functionOnclick() {
     console.log("Click Event")
 }
 
