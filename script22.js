@@ -25,4 +25,5 @@ let obj = {
     console.log(this.name);
   },
 };
+obj.getName()
 console.log(obj.getName());
