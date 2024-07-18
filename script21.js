@@ -1,18 +1,12 @@
-
-
-
-
-
-
-document.addEventListener("hello", function(data) {
-    console.log("hello has called and send", data.detail)
-})
+document.addEventListener("hello", function (data) {
+  console.log("hello has called and send", data.detail);
+});
 
 function callCustomMethod() {
-    let event = new CustomEvent("hello", {
-        detail:{name:"andre"}
-    })
-    document.dispatchEvent(event)
+  let event = new CustomEvent("hello", {
+    detail: { name: "andre" },
+  });
+  document.dispatchEvent(event);
 }
 
 // function functionOnclick() {
@@ -21,10 +15,3 @@ function callCustomMethod() {
 
 /*let btn = document.querySelector("button")
 btn.addEventListener("click", onClickFoo)*/
-
-
-
-
-
-
-
